@@ -12,15 +12,17 @@
 
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet">
 
     <style>
         .adlam-display-font {
             font-family: "ADLaM Display", serif;
 
         }
-        .sora-font{
+
+        .sora-font {
             font-family: "Sora", serif;
         }
     </style>
@@ -29,11 +31,11 @@
     <title>Pet Care And Service</title>
 </head>
 
-<body >
+<body>
     <!-- Header Section -->
-    <header>
+    <header class="container mx-auto">
         <!-- Navbar section -->
-        <nav class="container mx-auto" >
+        <nav >
             <div class="navbar bg-base-100 sora-font">
                 <div class="navbar-start">
                     <img src="Assets/logo-header.png" alt="" class="logo">
@@ -65,14 +67,26 @@
                     </div>
                     <img class="w-[25px] mr-4 hidden lg:flex" src="Assets/bell.png" alt="" srcset="">
                     <img class="w-[25px] mr-4 hidden lg:flex" src="Assets/search.png" alt="" srcset="">
-                    
+
                     <a class="btn border-solid border-[#FFDC26] px-8 hidden lg:flex">LogIn</a>
                     <a class="btn bg-[#FFDC26] px-8 hidden lg:flex">Register</a>
                 </div>
             </div>
         </nav>
         <!-- Banner Section -->
-
+        <div class="hero place-items-start lg:bg-cover bg-contain bg-no-repeat  min-h-screen mb-12 sora-font"
+            style="background-image: url(Assets/cat-big.png);">
+            
+            <div class="hero-content ">
+                <div class="max-w-xl">
+                    <h1 class="mb-5 text-5xl font-bold adlam-display-font">Pamper Your Pet, Because They Deserve <br> the Bes</h1>
+                    <p class="mb-5">
+                        Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!
+                    </p>
+                    <button class="btn bg-[#FFDC26] px-8 ">Find a pet</button>
+                </div>
+            </div>
+        </div>
     </header>
     <!-- Main Section -->
     <main>
