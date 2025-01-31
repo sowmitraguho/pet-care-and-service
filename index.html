@@ -47,7 +47,7 @@
       <div class="navbar bg-base-100 sora-font">
         <div class="navbar-start">
           <img src="Assets/logo-header.png" alt="" class="logo">
-          <a class="ml-2 hidden lg:block">Browse4Pets</a>
+          <a class="ml-2 hidden lg:block">Browse<span class="text-[#FFDC26]">4</span>Pets</a>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
@@ -361,7 +361,7 @@
 
     </section>
     <section class="container flex justify-center mx-auto my-12">
-      <div class="card card-side bg-blue-300 shadow max-w-3xl p-12">
+      <div class="card lg:card-side bg-[#FFF9F4] shadow max-w-3xl p-12 mx-4 lg:mb-[-180px] mb-[-400px]">
         <figure>
           <img class="w-48" src="Assets/cute-pet-mid.png" alt="Movie" />
         </figure>
@@ -370,7 +370,7 @@
           <p>Exclusive training tips, ticks, product deals and more.</p>
           <input type="email" placeholder="Enter Email" class="p-4 rounded-lg w-full max-w-xs" />
           <div class="card-actions justify-start">
-            <button class="btn bg-[#FFDC26] px-8 hidden lg:flex">Subscribe</button>
+            <button class="btn bg-[#FFDC26] px-8 ">Subscribe</button>
           </div>
         </div>
       </div>
@@ -379,9 +379,43 @@
 
   </main>
   <!-- Footer Section -->
-  <footer>
-
-
+  
+  <footer class="footer grid lg:grid-cols-3 bg-[#FFDC26]/[0.5] text-base-content p-10 lg:pt-[180px] pt-[400px]">
+    <nav class="lg:px-8">
+      <div class="navbar-start sora-font flex items-center">
+        <img src="Assets/logo-footer.png" alt="" class="logo">
+        <a class="ml-2 hidden lg:block">Browse<span class="text-[#FFDC26]">4</span>Pets</a>
+      </div>
+      <p class="mb-5">
+        Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails
+        wag with joy!
+      </p>
+    </nav>
+    <nav class="text-black lg:p-4">
+      
+      <a class="link link-hover">Find a Pet</a>
+      <a class="link link-hover">Breeds</a>
+      <a class="link link-hover">Contact Us</a>
+      
+    </nav>
+    <nav class="lg:place-self-end pr-32">
+      <h6 class="text-black">Follow Us</h6>
+      <div class="grid grid-flow-col gap-4">
+        <a>
+          <img class="w-[20px]" src="Assets/fb-icon.png" alt="" srcset="">
+        </a>
+        <a>
+          <img class="w-[20px]" src="Assets/insta-icon.png" alt="" srcset="">
+        </a>
+        <a>
+          <img class="w-[20px]" src="Assets/linkedin-icon.png" alt="" srcset="">
+        </a>
+        <a>
+          <img class="w-[20px]" src="Assets/youtube-icon.png" alt="" srcset="">
+        </a>
+        
+      </div>
+    </nav>
   </footer>
 </body>
 
